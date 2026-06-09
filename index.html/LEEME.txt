@@ -1,0 +1,36 @@
+==============================================
+ HIDROVERDE - PÁGINA WEB DE TU NEGOCIO
+==============================================
+
+CÓMO ABRIR EN VISUAL STUDIO CODE:
+1. Descomprime el archivo ZIP
+2. Abre VS Code → Archivo → Abrir Carpeta → selecciona "hidroponica"
+3. Instala la extensión "Live Server" (botón de extensiones, buscar Live Server)
+4. Haz clic derecho en index.html → "Open with Live Server"
+
+ESTRUCTURA DE ARCHIVOS:
+  index.html        → Página principal (edita aquí el contenido)
+  css/styles.css    → Estilos y colores
+  js/main.js        → Animaciones y formulario
+  img/              → Carpeta para tus fotos (agrégalas aquí)
+
+QUÉ DEBES PERSONALIZAR:
+  ✏️  Nombre del negocio: busca "HidroVerde" y reemplaza con el tuyo
+  📞  Teléfono: busca "+595 9XX XXX XXX" y pon el tuyo real
+  📧  Correo: busca "tucorreo@" y reemplaza
+  📍  Ciudades: en la sección "cobertura", pon tus ciudades reales
+  🖼️  Fotos: reemplaza los emojis 🥬 con tus imágenes reales:
+       <img src="img/tu-foto.jpg" alt="descripción" />
+  🔗  WhatsApp flotante: busca "wa.me/595900000000" y pon tu número
+
+CAMBIAR COLORES:
+  Abre css/styles.css y edita las variables al inicio:
+  --verde-oscuro, --verde-medio, --verde-claro
+  
+REEMPLAZAR EMOJIS POR FOTOS:
+  <div class="hero-imagen-placeholder">
+    🥬           ← Borra esto
+    <img src="img/mi-foto.jpg" alt="Lechugas" />  ← Agrega esto
+  </div>
+
+==============================================
