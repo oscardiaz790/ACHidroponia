@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AC Hidroponía — Producción y distribución familiar de lechuga Jade hidropónica fresca en tu ciudad y alrededores." />
+  <title>AC Hidroponía - Lechuga Jade Hidropónica Fresca</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-contenedor">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-icono">🥬</span>
+        <div>
+          <span class="logo-texto">AC Hidroponía</span>
+          <span class="logo-subtexto">Producción Familiar</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#cobertura">Cobertura</a></li>
+        <li><a href="#contacto" class="btn-nav">Pedir Ahora</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="inicio">
+    <div class="hero-fondo"></div>
+    <div class="hojas-decorativas hoja-1">🌿</div>
+    <div class="hojas-decorativas hoja-2">🍃</div>
+    <div class="hojas-decorativas hoja-3">🌱</div>
+
+    <div class="hero-contenedor">
+      <div class="hero-texto">
+        <span class="hero-etiqueta">🌱 Cultivo Hidropónico Familiar</span>
+        <h1 class="hero-titulo">
+          Lechugas Frescas <span>del Campo</span> a tu Mesa
+        </h1>
+        <p class="hero-descripcion">
+          Producimos y distribuimos lechugas hidropónicas de primera calidad. Sin tierra, sin pesticidas, con todo el sabor y los nutrientes que tu familia merece.
+        </p>
+        <div class="hero-botones">
+          <a href="#productos" class="btn btn-primario">Ver Nuestros Productos</a>
+          <a href="#contacto" class="btn btn-secundario">Hacer un Pedido</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-numero" data-valor="5" data-sufijo="+">0+</span>
+            <span class="stat-label">Años de Experiencia</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-numero" data-valor="7" data-sufijo="">0</span>
+            <span class="stat-label">Ciudades Cubiertas</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-numero" data-valor="200" data-sufijo="+">0+</span>
+            <span class="stat-label">Clientes Felices</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-imagen-contenedor">
+        <div class="hero-imagen-placeholder">
+          <img src="img/nr2.jpeg" alt="AC Hidroponía" />
+
+          <!-- 💡 Cuando tengas tu foto, reemplaza el emoji 🥬 por esto:
+          <img src="img/foto-principal.jpg" alt="AC Hidroponía" />
+          La imagen se recortará automáticamente en círculo. -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section id="nosotros">
+    <div class="contenedor">
+      <div class="nosotros-grid">
+        <div class="nosotros-imagen fade-in">
+            <img src="img/nr1.jpeg" alt="AC Hidroponía" />
+
+          <!-- 💡 Reemplaza esto con: <img src="img/equipo.jpg" alt="Nuestro equipo" /> -->
+          <p></p>
+        </div>
+        <div class="nosotros-texto fade-in">
+          <h2>Un Negocio Familiar con Pasión por lo Natural</h2>
+          <p>
+            Somos una empresa familiar dedicada al cultivo hidropónico de lechugas desde hace varios años. Nuestra granja utiliza tecnología moderna que permite cultivar sin tierra, con hasta un 90% menos de agua que el cultivo tradicional.
+          </p>
+          <p>
+            Cada lechuga que producimos crece en un ambiente controlado, libre de pesticidas, con nutrientes optimizados para que llegue a tu mesa en perfectas condiciones de frescura y sabor.
+          </p>
+          <div class="valores-lista">
+            <div class="valor-item">
+              <span class="valor-icono">✅</span>
+              <span>Sin pesticidas</span>
+            </div>
+            <div class="valor-item">
+              <span class="valor-icono">💧</span>
+              <span>Ahorro de agua</span>
+            </div>
+            <div class="valor-item">
+              <span class="valor-icono">🌿</span>
+              <span>100% natural</span>
+            </div>
+            <div class="valor-item">
+              <span class="valor-icono">🚚</span>
+              <span>Entrega rápida</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTOS ===== -->
+  <section id="productos">
+    <div class="contenedor">
+      <div class="seccion-cabecera">
+        <h2 class="seccion-titulo">Nuestro Producto</h2>
+        <p class="seccion-subtitulo">Cultivamos lechuga Jade hidropónica, cosechada fresca para hogares, restaurantes y negocios de la región.</p>
+      </div>
+
+      <div class="productos-grid">
+
+        <!-- TARJETA 1: Lechuga Jade -->
+        <div class="producto-card fade-in">
+          <div class="producto-imagen">
+            <img src="img/nr4.jpeg" alt="Lechuga Jade hidropónica" />
+            <!-- 💡 Cuando tengas la foto, reemplaza el emoji así:
+            <img src="img/lechuga-jade.jpg" alt="Lechuga Jade hidropónica" />
+            -->
+          </div>
+          <div class="producto-info">
+            <h3>Lechuga Jade</h3>
+            <p>Nuestra variedad estrella. Hojas verdes brillantes, textura crujiente y sabor fresco. Cultivada sin tierra ni pesticidas en nuestro invernadero familiar.</p>
+            <span class="producto-badge">⭐ Nuestro Producto</span>
+          </div>
+        </div>
+
+        <!-- TARJETA 2: Foto invernadero -->
+        <div class="producto-card fade-in">
+          <div class="producto-imagen">
+            <img src="img/nr3.jpeg" alt="Interior del invernadero" />
+            <!-- 💡 Reemplaza con tu foto del invernadero:
+            <img src="img/invernadero-1.jpg" alt="Interior del invernadero" />
+            -->
+          </div>
+          <div class="producto-info">
+            <h3>Nuestro Invernadero</h3>
+            <p>Un ambiente controlado donde cada planta recibe la luz, agua y nutrientes exactos para crecer sana y fuerte.</p>
+            <span class="producto-badge">🏡 Producción Propia</span>
+          </div>
+        </div>
+
+        <!-- TARJETA 3: Foto cantidad / producción -->
+        <div class="producto-card fade-in">
+          <div class="producto-imagen">
+            <img src="img/nr5.png" alt="Interior del invernadero" />
+            <!-- 💡 Reemplaza con tu foto de las plantas en producción:
+            <img src="img/invernadero-2.jpg" alt="Lechugas en producción" />
+            -->
+          </div>
+          <div class="producto-info">
+            <h3>Alta Producción</h3>
+            <p>Cientos de lechugas listas para cosechar cada semana. Producción constante para abastecer tu negocio sin interrupciones.</p>
+            <span class="producto-badge">📦 Stock Permanente</span>
+          </div>
+        </div>
+
+        <!-- TARJETA 4: Foto cosecha / calidad -->
+        <div class="producto-card fade-in">
+          <div class="producto-imagen">
+            <img src="img/nr6.jpeg" alt="Interior del invernadero" />
+            <!-- 💡 Reemplaza con tu foto de cosecha o producto final:
+            <img src="img/invernadero-3.jpg" alt="Cosecha de lechugas" />
+            -->
+          </div>
+          <div class="producto-info">
+            <h3>Cosecha al Pedido</h3>
+            <p>No cortamos antes de tiempo. Cosechamos cuando tu pedido está confirmado para que recibas la lechuga en su punto máximo de frescura.</p>
+            <span class="producto-badge">🌟 Siempre Fresco</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESO ===== -->
+  <section id="proceso">
+    <div class="contenedor">
+      <div class="seccion-cabecera">
+        <h2 class="seccion-titulo">Nuestro Proceso</h2>
+        <p class="seccion-subtitulo">Del agua a tu mesa, con cuidado en cada etapa.</p>
+      </div>
+
+      <div class="proceso-pasos">
+        <div class="proceso-paso fade-in">
+          <div class="paso-numero">1</div>
+          <div class="paso-icono">🌱</div>
+          <h3>Germinación</h3>
+          <p>Seleccionamos semillas de calidad y las germinamos en condiciones óptimas de temperatura y luz.</p>
+        </div>
+
+        <div class="proceso-paso fade-in">
+          <div class="paso-numero">2</div>
+          <div class="paso-icono">💧</div>
+          <h3>Cultivo Hidropónico</h3>
+          <p>Las plántulas se transfieren al sistema hidropónico donde reciben nutrientes directamente en el agua.</p>
+        </div>
+
+        <div class="proceso-paso fade-in">
+          <div class="paso-numero">3</div>
+          <div class="paso-icono">☀️</div>
+          <h3>Control y Cuidado</h3>
+          <p>Monitoreamos pH, nutrientes, temperatura y luz todos los días para un crecimiento óptimo.</p>
+        </div>
+
+        <div class="proceso-paso fade-in">
+          <div class="paso-numero">4</div>
+          <div class="paso-icono">✂️</div>
+          <h3>Cosecha Fresca</h3>
+          <p>Cosechamos solo cuando el pedido está confirmado para garantizar máxima frescura al cliente.</p>
+        </div>
+
+        <div class="proceso-paso fade-in">
+          <div class="paso-numero">5</div>
+          <div class="paso-icono">🚚</div>
+          <h3>Distribución</h3>
+          <p>Entregamos directamente en tu ciudad o en las ciudades vecinas de nuestra área de cobertura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COBERTURA ===== -->
+  <section id="cobertura">
+    <div class="contenedor">
+      <div class="seccion-cabecera">
+        <h2 class="seccion-titulo">Área de Distribución</h2>
+        <p class="seccion-subtitulo">Llevamos nuestras lechugas frescas a tu puerta en estas localidades.</p>
+      </div>
+
+      <div class="ciudades-grid">
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">📍</div>
+          <div class="ciudad-nombre">Caacupé</div>
+          <div class="ciudad-tipo">Sede Principal</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Piribebuy</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Atyrá</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Pirayú</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Altos</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Tobatí</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+        <div class="ciudad-card fade-in">
+          <div class="ciudad-icono">🏙️</div>
+          <div class="ciudad-nombre">Ypacaraí</div>
+          <div class="ciudad-tipo">Ciudad Vecina</div>
+        </div>
+      </div>
+
+      <p style="text-align:center; color:rgba(255,255,255,0.7); margin-top:2rem; font-size:0.95rem;">
+        ¿Tu ciudad no está en la lista? ¡Consúltanos! Estamos en constante expansión. 🚚
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== BENEFICIOS ===== -->
+  <section id="beneficios">
+    <div class="contenedor">
+      <div class="seccion-cabecera">
+        <h2 class="seccion-titulo">¿Por Qué Elegirnos?</h2>
+        <p class="seccion-subtitulo">La hidropónica es el futuro de la agricultura, y nosotros la traemos a tu mesa hoy.</p>
+      </div>
+
+      <div class="beneficios-grid">
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">🥬</div>
+          <div class="beneficio-texto">
+            <h3>Frescura Garantizada</h3>
+            <p>Cosechamos al momento del pedido. Lo que llega a tu mesa fue cortado pocas horas antes.</p>
+          </div>
+        </div>
+
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">🚫</div>
+          <div class="beneficio-texto">
+            <h3>Sin Pesticidas</h3>
+            <p>Cultivo limpio en ambiente controlado. No necesitamos químicos para proteger nuestras plantas.</p>
+          </div>
+        </div>
+
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">💧</div>
+          <div class="beneficio-texto">
+            <h3>Sostenible</h3>
+            <p>Usamos hasta un 90% menos de agua que el cultivo tradicional. Cuidamos el planeta con cada planta.</p>
+          </div>
+        </div>
+
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">🏠</div>
+          <div class="beneficio-texto">
+            <h3>Negocio Familiar</h3>
+            <p>Tratas directamente con nosotros. Atención personalizada, confianza y compromiso en cada entrega.</p>
+          </div>
+        </div>
+
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">🚚</div>
+          <div class="beneficio-texto">
+            <h3>Entrega a Domicilio</h3>
+            <p>Llegamos hasta tu negocio, restaurante o hogar. Distribución en múltiples ciudades.</p>
+          </div>
+        </div>
+
+        <div class="beneficio-item fade-in">
+          <div class="beneficio-icono-wrap">💰</div>
+          <div class="beneficio-texto">
+            <h3>Precios Justos</h3>
+            <p>Al producir nosotros mismos, eliminamos intermediarios y te ofrecemos el mejor precio del mercado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto">
+    <div class="contenedor">
+      <div class="seccion-cabecera">
+        <h2 class="seccion-titulo">¿Listo para Pedir?</h2>
+        <p class="seccion-subtitulo">Contáctanos directamente por cualquiera de estos medios. ¡Respondemos rápido!</p>
+      </div>
+
+      <div class="contacto-cards-grid">
+
+        <div class="contacto-card fade-in">
+          <div class="contacto-card-icono">📱</div>
+          <h3>WhatsApp / Teléfono</h3>
+          <p>+595 983 447384</p>
+          <a href="https://wa.me/595983447384" target="_blank" rel="noopener" class="btn-contacto-card">Escribir por WhatsApp</a>
+        </div>
+
+        <div class="contacto-card fade-in">
+          <div class="contacto-card-icono">📧</div>
+          <h3>Correo Electrónico</h3>
+          <p>ACHidroponia@gmail.com</p>
+          <a href="mailto:ACHidroponia@gmail.com" class="btn-contacto-card">Enviar Correo</a>
+        </div>
+
+        <div class="contacto-card fade-in">
+          <div class="contacto-card-icono">📍</div>
+          <h3>Ubicación</h3>
+          <p>Caacupé — Barrio San Cayetano, Sección Las Quintas II</p>
+          <a href="https://maps.app.goo.gl/GshSv9ZheyD5toEr9" target="_blank" rel="noopener" class="btn-contacto-card">Ver en el Mapa</a>
+        </div>
+
+        <div class="contacto-card fade-in">
+          <div class="contacto-card-icono">🕐</div>
+          <h3>Horario de Atención</h3>
+          <p>Lunes a Sábado<br/>7:00 am – 6:00 pm</p>
+          <span class="badge-horario" id="badgeHorario">✅ Abierto ahora</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-contenido">
+      <div class="footer-brand">
+        <span class="logo-icono">🥬</span>
+        <span class="logo-texto">AC Hidroponía</span>
+        <p>Producción familiar de lechuga Jade hidropónica. Fresca, natural y entregada con cariño directamente a tu puerta.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#cobertura">Cobertura</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/595983447384" target="_blank">📱 +595 983 447384</a></li>
+          <li><a href="mailto:ACHidroponia@gmail.com">📧 ACHidroponia@gmail.com</a></li>
+          <li><a href="#">📍 Caacupé, Las Quintas II</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="anioActual"></span> AC Hidroponía — Todos los derechos reservados.</p>
+      <p>Hecho con 🌿 por nuestra familia para la tuya.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/595983447384" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    💬
+  </a>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
